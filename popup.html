@@ -1,0 +1,76 @@
+<!--
+    Author: DanyB0 (https://danyb0.me)
+-->
+
+<!doctype html>
+<html>
+
+    <head>
+      <title>Nhentai searcher</title>
+      <script src="popup.js"></script>
+      <style>
+          body {
+              background-color: #1F1F1F;
+          }
+
+          #title {
+            color: #ED2553;
+            text-align: center;
+            margin: auto;
+            width: 100%;
+          }
+
+          #input {
+            margin: auto;
+            text-align: center;
+            border-radius: 6px;
+            border: none;
+            margin-bottom:5px;
+          }
+
+          #search_lbl {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            background-color: #1F1F1F;
+            color: #ED2553;
+            font-size: 15px;
+          }
+
+          #error > span {
+            color: #DE4265;
+            margin: auto;
+            width: 100%;
+            text-align: center;
+          }
+
+          #error {
+            color: #FFFFFF;
+            margin: auto;
+            width: 100%;
+            text-align: center;
+          }
+
+          #me {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            border-radius: 6px;
+            border: none;
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+            font-size: 10px;
+          }
+      </style>
+    </head>
+
+    <body>
+        <h1 id="title">Nhentai searcher</h1>
+        <br>
+        <input id="input" type="text" autofocus="autofocus" onfocus="this.select()">
+        <div id="search_lbl">Press enter to search!</div>
+        <h3 id="error"></h3>
+        <h3 id="me"><br>made with <3 by DanyB0</h3>
+    </body>
+
+</html>
