@@ -1,4 +1,4 @@
-# Nhentai-searcher
+# nhentai-searcher
 Have you ever wanted to look for a hentai of a certain character but then you never did because laziness won?<br>
 Well, now you won’t have this problem :)
 ## Screenshot
