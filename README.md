@@ -4,7 +4,7 @@ Well, now you won’t have this problem :)
 ## Preview
 [![gif](https://github.com/DanyB0/nhentai-searcher/blob/main/screenshots/gif.gif)]()
 ## Installation
-- Download the .crx file [here](https://github.com/DanyB0/Nhentai-searcher/releases/tag/v1.0)
+- Download the .crx file [here](https://github.com/DanyB0/nhentai-searcher/releases/tag/v1.1.0)
 - Follow [these instructions](https://stackoverflow.com/questions/9931906/crx-file-install-in-chrome)
 - Have fun!
 ## Team
