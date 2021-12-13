@@ -2,13 +2,22 @@
 // This is my first javascript script :)
 
 document.addEventListener('DOMContentLoaded', function() {
+    // select the incognito mode by default
+    document.getElementById("inc").click();
     window.addEventListener('keyup', function(event) {
         // keyCode13 = Enter key
         if (event.keyCode === 13) {
+            var mode = document.querySelector('input[name="mode"]:checked').value;
             tot = nhentai();
             // check that the url exists (not invalid) and open it
             if (tot) {
-                window.open(tot);
+                // incognito mode
+                if (mode == "Incognito") {
+                    chrome.windows.create({"url": tot, "incognito": true});
+                }
+                // normal mode
+                else
+                    window.open(tot)
             }
         }
     });
@@ -22,7 +31,7 @@ function nhentai() {
     var tot = url.concat(query);
     // check the query (if it's invalid display an error message)
     if (tot == 'https://nhentai.net/search/?q=' || tot == 'https://nhentai.net/search/?q=+' || tot == 'https://nhentai.net/search/?q=#') {
-        document.getElementById('error').innerHTML += '<span>----------------------------------------<br>[X] </span>Invalid search<br>';
+        document.getElementById('error').innerHTML += '<span>------------------------------<br>[X] </span>Invalid search<br>';
     }
     // open the link
     else {

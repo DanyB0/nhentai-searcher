@@ -28,7 +28,7 @@
             margin-bottom:5px;
           }
 
-          #search_lbl {
+          #lbl {
             margin: auto;
             text-align: center;
             width: 100%;
@@ -61,14 +61,43 @@
             color: #FFFFFF;
             font-size: 10px;
           }
+
+          #inc {
+            background-color: #1F1F1F;
+            color: #ffffff;
+            font-size: 11px;
+          }
+
+          #norm {
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+            font-size: 11px;
+          }
+
+          .lbl {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            border-radius: 6px;
+            border: none;
+            background-color: #1F1F1F;
+            color: #e26380;
+            font-size: 13px;
+          }
       </style>
     </head>
 
     <body>
-        <h1 id="title">Nhentai searcher</h1>
+        <h1 id="title">Nhentai searcher</h1><br>
+        <p class="lbl">Window mode</p>
+        <input type="radio" name="mode" value="Incognito" id="inc">
+        <label for="inc" id="inc">Incognito</label>
         <br>
+        <input type="radio" name="mode" value="Normal" id="norm">
+        <label for="norm" id="norm">Normal</label>
+        <br></br>
         <input id="input" type="text" autofocus="autofocus" onfocus="this.select()">
-        <div id="search_lbl">Press enter to search!</div>
+        <div id="lbl">Press enter to search!</div>
         <h3 id="error"></h3>
         <h3 id="me"><br>made with <3 by DanyB0</h3>
     </body>
