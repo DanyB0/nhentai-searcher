@@ -1,5 +1,6 @@
 # nhentai-searcher
 [![Version](https://img.shields.io/github/v/release/DanyB0/nhentai-searcher?color=red)]()
+[![CodeFactor](https://www.codefactor.io/repository/github/danyb0/nhentai-searcher/badge)](https://www.codefactor.io/repository/github/danyb0/nhentai-searcher)
 <br></br>
 Have you ever wanted to look for a hentai of a certain character but then you never did because laziness won?<br>
 Well, now you won’t have this problem :)
