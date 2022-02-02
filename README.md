@@ -7,6 +7,9 @@ Well, now you won’t have this problem :)
 ## Preview
 [![gif](https://github.com/DanyB0/nhentai-searcher/blob/main/screenshots/gif.gif)]()
 ## Installation
+  ### Download it from:
+  - [Opera Addons Store](https://addons.opera.com/it/extensions/details/nhentai-searcher/) (Opera beta/Opera developer)
+### Add it manually to your browser:
 - Download the .crx file [here](https://github.com/DanyB0/nhentai-searcher/releases/tag/v1.1.0)
 - Follow [these instructions](https://stackoverflow.com/questions/9931906/crx-file-install-in-chrome)
 - Have fun!
