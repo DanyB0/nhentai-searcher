@@ -38,23 +38,3 @@ function nhentai() {
         return tot
     }
 }
-
-function myAction(input) {
-    sixDigit=input.value.match(/\d{6}/);
-    if(!sixDigit){return}
-    sixDigitLink = `https://nhentai.net/g/${sixDigit}`;
-  //   alert(sixDigitLink);
-     $.ajax({
-       crossOrigin: true,
-       url: sixDigitLink,
-       type: "GET",
-       success: function (data) {
-          alert('0990')
-         $("#content").html($(data).find("#content").html());
-       },
-     });
-    
-    // do processing with data
-    // you need to right click the extension icon and choose "inspect popup"
-    // to view the messages appearing on the console.
-  }
