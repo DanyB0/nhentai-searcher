@@ -1,12 +1,18 @@
 {
   "manifest_version": 3,
-
+  "background": {
+    "service_worker": "background.js"
+  },
   "name": "Nhentai searcher",
-  "description": "Browse doujins on nhentai.net in incognito and normal mode",
-  "version": "1.1.0",
-
-  "browser_action": {
-   "default_icon": "icon.png",
-   "default_popup": "popup.html"
-  }
+  "description": "Browse doujins on nhentai.net in private and normal mode",
+  "version": "1.2.0",
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png"
+  },
+  "homepage_url": "https://github.com/DanyB0/nhentai-searcher"
 }
