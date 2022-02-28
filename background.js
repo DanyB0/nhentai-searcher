@@ -13,7 +13,7 @@ chrome.runtime.onInstalled.addListener(() => {
     });
   });
   
-  chrome.contextMenus.onClicked.addListener(function getword(info, tab) {
+  chrome.contextMenus.onClicked.addListener(function getword(info) {
     if (info.menuItemId !== "sixDigitNumber_normal") {
       return;
     }
@@ -24,7 +24,7 @@ chrome.runtime.onInstalled.addListener(() => {
     });
   });
   
-  chrome.contextMenus.onClicked.addListener(function getword(info, tab) {
+  chrome.contextMenus.onClicked.addListener(function getword(info) {
     if (info.menuItemId !== "sixDigitNumber_private") {
       return;
     }
