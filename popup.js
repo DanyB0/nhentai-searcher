@@ -58,11 +58,3 @@ function myAction(input) {
     // you need to right click the extension icon and choose "inspect popup"
     // to view the messages appearing on the console.
   }
-  
-  function documentEvents() {
-    document.getElementById("detact").addEventListener("click", function () {
-      myAction(document.getElementById("detact_text"));
-    });
-  
-    // you can add listeners for other objects (like other buttons) here
-  }
