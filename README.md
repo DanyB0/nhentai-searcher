@@ -1,5 +1,5 @@
 # nhentai-searcher
-[![Version](https://img.shields.io/github/v/release/DanyB0/nhentai-searcher?color=red)]()
+[![Version](https://img.shields.io/github/v/release/DanyB0/nhentai-searcher?color=red)](https://github.com/DanyB0/nhentai-searcher/releases/tag/v1.2.1.2)
 [![CodeFactor](https://www.codefactor.io/repository/github/danyb0/nhentai-searcher/badge)](https://www.codefactor.io/repository/github/danyb0/nhentai-searcher)
 <br></br>
 Have you ever wanted to look for a hentai of a certain character but then you never did because laziness won?<br>
@@ -7,7 +7,7 @@ Well, now you won’t have this problem :)
 ## Preview
 https://user-images.githubusercontent.com/66164380/188514890-332b349d-a2e4-40b6-82c7-a74a51a9237d.mp4
 ## Installation
-- Download the .crx file [here](https://github.com/DanyB0/nhentai-searcher/releases/tag/v1.1.0)
+- Download the .crx file from the latest release [here](https://github.com/DanyB0/nhentai-searcher/releases)
 - Follow [these instructions](https://stackoverflow.com/questions/9931906/crx-file-install-in-chrome)
 - Have fun!
 ## Team
