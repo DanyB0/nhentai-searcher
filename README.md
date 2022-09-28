@@ -7,9 +7,8 @@ Well, now you won’t have this problem :)
 ## Preview
 https://user-images.githubusercontent.com/66164380/188514890-332b349d-a2e4-40b6-82c7-a74a51a9237d.mp4
 ## Installation
-- Download the .crx file from the latest release [here](https://github.com/DanyB0/nhentai-searcher/releases)
-- Follow [these instructions](https://stackoverflow.com/questions/9931906/crx-file-install-in-chrome)
-- Have fun!
+1) - Download the .crx file from the latest release [here](https://github.com/DanyB0/nhentai-searcher/releases) and follow [these instructions](https://stackoverflow.com/questions/9931906/crx-file-install-in-chrome)
+2) - Get it from the [Opera addons store](https://addons.opera.com/it/extensions/details/nhentai-searcher-2/)
 ## Team
 This project is maintained by me.
 [![DanyB0](https://avatars.githubusercontent.com/u/66164380?s=100)](https://github.com/DanyB0) |
